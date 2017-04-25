@@ -21,4 +21,4 @@
 .byebug_history
 .idea/
 config/cloudinary.yml
-
+*.DS_Store

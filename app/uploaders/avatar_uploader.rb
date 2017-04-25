@@ -2,6 +2,10 @@ class AvatarUploader < CarrierWave::Uploader::Base
 
   include Cloudinary::CarrierWave
 
+  # version :thumb do
+  #   process resize_to_fill: [500, 00]
+  # end
+
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
   # include CarrierWave::MiniMagick
