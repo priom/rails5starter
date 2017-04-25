@@ -1,11 +1,9 @@
-# README
+# Rails 5 Starter Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Ruby version: 2.4.1
 
-* Ruby version
+* Rails version: 5.0.2
 
 * System dependencies
 
@@ -22,3 +20,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+**List of Gems**  
+
+* Bootstrap 3
+* Devise
+* Devise Bootstrap Views
+* Carrierwave
+* Cloudinary
