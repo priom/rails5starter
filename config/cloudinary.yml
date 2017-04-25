@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: priom
+  api_key: '992663271591242'
+  api_secret: l9b-Wz5nGl1kGrqp8ALUz2_0Zrk
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: priom
+  api_key: '992663271591242'
+  api_secret: l9b-Wz5nGl1kGrqp8ALUz2_0Zrk
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: priom
+  api_key: '992663271591242'
+  api_secret: l9b-Wz5nGl1kGrqp8ALUz2_0Zrk
+  enhance_image_tag: true
+  static_image_support: false

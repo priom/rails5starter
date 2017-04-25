@@ -16,7 +16,7 @@
       <ul class="nav navbar-nav navbar-right">
         <% if current_user %>
             <li class="active"><%= link_to 'Profile', edit_user_registration_path %></li>
-            <li><%= link_to 'SignOut', destroy_user_session_path, method: :delete %></li>
+            <li><%= link_to 'Signout', destroy_user_session_path, method: :delete %></li>
         <% else %>
             <li class="active"><%= link_to 'Signup', new_user_registration_path %></li>
             <li><%= link_to 'Login', new_user_session_path %></li>
