@@ -18,7 +18,6 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 
-gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'carrierwave', '~> 1.0'

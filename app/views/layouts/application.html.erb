@@ -4,6 +4,8 @@
     <title>Rails5starter</title>
     <%= csrf_meta_tags %>
 
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+
     <!--FONT AWESOME CDN-->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
@@ -12,6 +14,8 @@
   </head>
 
   <body>
+    <%=	render 'layouts/header' %>
+
     <div class="container">
       <div class="row">
         <% if flash[:notice] %>
