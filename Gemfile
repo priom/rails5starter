@@ -20,6 +20,10 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'devise', '~> 4.2', '>= 4.2.1'
+gem 'devise-bootstrap-views', '~> 0.0.11'
+
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do

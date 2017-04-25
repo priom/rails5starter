@@ -12,6 +12,20 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <div class="row">
+        <% if flash[:notice] %>
+            <div class="alert alert-dismissible alert-success"><%= flash[:notice] %></div>
+        <% end %>
+
+        <% if flash[:alert] %>
+            <div class="alert alert-dismissible alert-warning"><%= flash[:alert] %></div>
+        <% end %>
+      </div>
+    </div>
+
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>
