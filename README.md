@@ -21,9 +21,10 @@
 
 * ...
 
-**List of Gems**  
+**List of all components used**  
 
-* Bootstrap 3
+* BootSwatch (Bootstrap 3) CDN
+* FontAwesome CDN
 * Devise
 * Devise Bootstrap Views
 * Carrierwave
