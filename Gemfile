@@ -22,7 +22,6 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'carrierwave', '~> 1.0'
 gem 'cloudinary', '~> 1.7'
-gem 'sendgrid-ruby'
 
 # gem 'capistrano-rails', group: :development
 
