@@ -4,9 +4,9 @@
     <title>Rails5starter</title>
     <%= csrf_meta_tags %>
 
-    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--FONT AWESOME CDN-->
+    <link rel="stylesheet" href="https://bootswatch.com/paper/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -25,11 +25,9 @@
         <% if flash[:alert] %>
             <div class="alert alert-dismissible alert-warning"><%= flash[:alert] %></div>
         <% end %>
-      </div>
-    </div>
 
-    <div class="container">
-      <%= yield %>
+        <%= yield %>
+      </div>
     </div>
   </body>
 </html>
