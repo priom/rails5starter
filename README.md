@@ -1,5 +1,7 @@
 # Rails 5 Starter Project
 
+[![Build Status](https://semaphoreci.com/api/v1/priom/rails5starter/branches/master/shields_badge.svg)](https://semaphoreci.com/priom/rails5starter)
+
 The only rails 5 starter project you will ever need to start your project right away.
 
 See [demo](https://rails5starter.herokuapp.com/)
