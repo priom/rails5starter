@@ -30,7 +30,7 @@ See [demo](https://rails5starter.herokuapp.com/)
 
 **For Cloudinary to work**
 1. Create a new account at [cloudinary](http://cloudinary.com/)
-2. Download [cloudinary.yml][https://cloudinary.com/console/cloudinary.yml]
+2. Download [cloudinary.yml](https://cloudinary.com/console/cloudinary.yml)
 3. Place it in config/ folder.
 4. That's it! Your image uploading should work now.
 
