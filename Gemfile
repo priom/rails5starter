@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails', '~> 5.0.7'
+gem 'rails', '~> 5.0.7', '>= 5.0.7.1'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'uglifier', '>= 1.3.0'
@@ -19,7 +19,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'devise-bootstrap-views', '~> 0.0.11'
 gem 'carrierwave', '~> 1.0'
 gem 'cloudinary', '~> 1.7'
-gem 'mail_form', '~> 1.6', '>= 1.6.0'
+gem 'mail_form', '~> 1.7', '>= 1.7.1'
 
 
 group :development, :test do
